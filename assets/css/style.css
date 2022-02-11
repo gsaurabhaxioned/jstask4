@@ -141,6 +141,16 @@ main {
   -o-transition: all ease-in-out 1s;
 }
 
+.searchname-hide {
+  width: 0;
+  padding: 0;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+
 .searchbutton {
   background-color: #fff;
   padding: 16px;
