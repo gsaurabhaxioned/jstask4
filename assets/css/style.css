@@ -120,8 +120,22 @@ li {
   main styling starts here
 =================================*/
 
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.searchbar {
+  display: flex;
+}
 
+.searchbutton::before {
+  content: "\f002";
+  display: inline-block;
+  font-family: "fontAwesome";
+}
 
 
 
