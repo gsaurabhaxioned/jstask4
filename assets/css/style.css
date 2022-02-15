@@ -135,6 +135,9 @@ main {
 .searchname {
   width: 0;
   border: none;
+ }
+
+.shrink {
   animation: shrink 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
