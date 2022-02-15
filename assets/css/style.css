@@ -201,7 +201,7 @@ main {
 
 .searchname-hide {
   padding: 15px 16px;
-  animation: expand 0.3s;
+  animation: expand 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
 }
