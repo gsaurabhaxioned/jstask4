@@ -5,5 +5,5 @@ let search = document.querySelector(".searchbutton"),
 
 search.addEventListener('click', function () {
     searchname.classList.toggle('searchname-hide');
-    searchname.style.animationDuration = "0.3s";
+    searchname.style.animationDuration = "0.2s";
 });
