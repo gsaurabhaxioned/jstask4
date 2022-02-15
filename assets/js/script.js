@@ -1,7 +1,8 @@
-let search = document.querySelectorAll(".searchbutton"),
+let search = document.querySelector(".searchbutton"),
 
-    searchname = document.querySelectorAll('.searchname');
+    searchname = document.querySelector('.searchname');
 
-search[0].addEventListener('click', function () {
-    searchname[0].classList.toggle('searchname-hide');
+search.addEventListener('click', function () {
+    searchname.classList.toggle('searchname-hide');
 });
+
