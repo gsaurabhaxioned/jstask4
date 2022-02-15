@@ -135,13 +135,10 @@ main {
 .searchname {
   width: 0;
   border: none;
- }
-
-.shrink {
-  animation: shrink 0.5s;
+  animation: shrink 0s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
-}
+ }
 
 @-webkit-keyframes shrink {
   0% {
