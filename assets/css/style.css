@@ -201,7 +201,7 @@ main {
 
 .searchname-hide {
   padding: 15px 16px;
-  animation: expand 0.5s;
+  animation: expand 0.3s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
 }
@@ -283,8 +283,13 @@ main {
   content: "\f002";
   float: right;
   display: block;
+  font-size: 24px;
   font-family: "fontAwesome";
   text-indent: 0;
+}
+
+::placeholder {
+  font-size: 22px;
 }
 
 
